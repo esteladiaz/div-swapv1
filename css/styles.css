@@ -1,9 +1,7 @@
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white;
-	margin: 0;
-	padding: 5% 20%;
-	text-align: center;
+	margin: 0%;
 	display: inline-block;
 	background: rgb(200,200,0);
   -webkit-touch-callout: none;
@@ -15,9 +13,26 @@ body {
   cursor: default;
 }
 
-.container {
+nav ul {
+	list-style-type: none;
+	background-color: #444;
 	text-align: center;
-	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #000;
+}
+
+#hero {
+	height: 40%;
+	width: auto;
+	padding-left: 10%;
+	margin: 10%;
 }
 
 p {
@@ -28,7 +43,7 @@ p {
 
 span#typed, span.typed-cursor {
 	font-family: 'Ubuntu Mono', monospace;
-	font-size: 800%;
+	font-size: 1000%;
 }
 
 .contact {
@@ -53,21 +68,6 @@ a:focus {
 	color: white;
 	text-decoration: none;
 	opacity: 0.5;
-}
-nav {
-	padding-top: 10%;
-	position: absolute;;
-}
-ul {
-	list-style-type: none;
-}
-li {
-	display: inline;
-	margin: auto;
-	font-size: 500%;
-}
-li a {
-	text-decoration: none;
 }
 
 #name {
