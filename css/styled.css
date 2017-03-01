@@ -2,8 +2,8 @@ body {
 	margin: 0;
 	font-family: "Roboto Condensed", sans-serif;
 	color: #fff;
-	/*background: rgb(200,200,0);*/
-	background: #000;
+	background: rgb(200,200,0);
+	/*background: #000;*/
 	-webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
