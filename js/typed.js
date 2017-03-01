@@ -415,7 +415,7 @@
 		// loop
 		loop: false,
 		// false = infinite
-		loopCount: 3,
+		loopCount: 0,
 		// show cursor
 		showCursor: true,
 		// character for cursor
