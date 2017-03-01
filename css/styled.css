@@ -47,7 +47,7 @@ ul.nav li a {
 	padding-bottom: 3px;*/
 }
 
-#hero {
+.hero {
 	height: 40%;
 	width: auto;
 	padding-left: 35px;
@@ -106,6 +106,13 @@ a:focus {
 	color: #fff;
 	text-decoration: none;
 	opacity: 0.5;
+}
+
+#about {
+	height: 40%;
+	width: auto;
+	padding-left: 35px;
+	margin: 10%;
 }
 
 #name {
