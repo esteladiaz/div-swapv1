@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: "Roboto Condensed", sans-serif;
+	font-family: "Futura", sans-serif;
 	color: #fff;
 	background: rgb(200,200,0);
 	/*background: #000;*/
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-header {
-	font-family: "Ubuntu Mono", monospace;
+	font-family: "Futura", monospace;
 	font-size: 300%;
 }
 ul.nav {
@@ -61,7 +61,7 @@ p {
 }
 
 span#typed, span.typed-cursor {
-	font-family: 'Ubuntu Mono', monospace;
+	font-family: 'Futura', monospace;
 	font-size: 1000%;
 }
 
@@ -151,7 +151,7 @@ a:focus {
 
 @media (max-width: 480px) {
 	span#typed, span.typed-cursor {
-		font-family: 'Ubuntu Mono', monospace;
+		font-family: 'Futura', monospace;
 		font-size: 300%;
 	}
 
