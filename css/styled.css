@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-header {
-	font-family: "Futura", monospace;
+	font-family: "Work Sans", monospace;
 	font-size: 300%;
 }
 ul.nav {
@@ -61,7 +61,7 @@ p {
 }
 
 span#typed, span.typed-cursor {
-	font-family: 'Futura', monospace;
+	font-family: 'Work Sans', monospace;
 	font-size: 1000%;
 }
 
@@ -151,7 +151,7 @@ a:focus {
 
 @media (max-width: 480px) {
 	span#typed, span.typed-cursor {
-		font-family: 'Futura', monospace;
+		font-family: 'Work Sans', monospace;
 		font-size: 300%;
 	}
 
