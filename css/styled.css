@@ -3,7 +3,7 @@ body {
 	font-family: "Work Sans", sans-serif;
 	letter-spacing: 1px;
 	color: #fff;
-	background: rgb(255,255,255);
+	background: rgb(255,0,0);
 	-webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -11,6 +11,10 @@ body {
   -ms-user-select: none;
   user-select: none;
   cursor: default;
+}
+footer p {
+	text-align: center;
+	font-size: 0.5em;
 }
 #container {
 	margin: 30px auto;
@@ -134,7 +138,8 @@ img#about {
 }
 ul#social {
 	list-style: none;
-	padding-top: 20px;
+	padding: 20px 0;
+	margin-bottom: 0;
 	}
 ul#social li {
 	display: inline;
