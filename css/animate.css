@@ -40,9 +40,9 @@
   }
 }
 
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
 }
 
 @-webkit-keyframes fadeInUpBig {
@@ -72,7 +72,12 @@
     transform: none;
   }
 }
-
+.fadeInUpBig#link0 {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+  -webkit-animation-delay: 2.0s;
+  animation-delay: 2.0s;
+}
 .fadeInUpBig#link1 {
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
